@@ -37,6 +37,7 @@ function Login({ setIsAuthenticated }) {
     <GoogleOAuthProvider clientId="384675909926-60k1pndu47b7bbtlte3v0ua3r27ks7oe.apps.googleusercontent.com">
       <div className="login-container">
         <h2>Login</h2>
+        <p>test email is: test@example.com  and password is: password</p>
         <form onSubmit={handleSubmit}>
           <div>
             <label>Email</label>
